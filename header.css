@@ -24,6 +24,18 @@
     padding: 1em;
 }
 
+.lista-menu{
+  display:none;
+  position: absolute;
+  top: 100%;
+  width: 60vw;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+  }
+  
+
 .lista-menu_titulo
 .lista-menu_item{
     padding: 1em;
